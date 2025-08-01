@@ -29,6 +29,7 @@ public class Example05_01 {
 
     private static void function2() {
         System.out.println("inside function2");
+
         throw new NullPointerException("Thrown nullpointer in function2.");
     }
 }

@@ -12,6 +12,7 @@ public class Example02 {
         } catch (Exception e) {
             System.out.println("Exception");
         }
+
         System.out.println("Rest of code.");
     }
 }
