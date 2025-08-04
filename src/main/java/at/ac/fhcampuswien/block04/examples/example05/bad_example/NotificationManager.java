@@ -13,6 +13,6 @@ public class NotificationManager {
     }
 
     public void send(String message) {
-        emailService.sendEmail(message);
+        this.emailService.sendEmail(message);
     }
 }

@@ -12,7 +12,7 @@ public class MyService {
 
     // CREATE
     public boolean add(MyElement el) throws SQLException {
-        return repository.add(el);
+        return this.repository.add(el);
     }
 
     // READ
@@ -26,7 +26,7 @@ public class MyService {
             throw new IllegalArgumentException("Updated element or ID cannot be null.");
         }
 
-        return repository.update(el);
+        return this.repository.update(el);
     }
 
     // DELETE

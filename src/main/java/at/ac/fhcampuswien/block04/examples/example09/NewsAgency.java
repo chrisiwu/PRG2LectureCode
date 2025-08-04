@@ -31,7 +31,7 @@ public class NewsAgency implements Publisher {
 
     @Override
     public void notifySubscribers() {
-        for (Subscriber subscriber : channels) {
+        for (Subscriber subscriber : this.channels) {
             subscriber.update(this.news);
         }
     }

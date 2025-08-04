@@ -19,6 +19,6 @@ public class PaymentProcessor {
     }
 
     public void processPayment(double amount) {
-        method.pay(amount);
+        this.method.pay(amount);
     }
 }
